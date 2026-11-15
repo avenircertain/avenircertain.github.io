@@ -458,19 +458,19 @@
     "address": "Siège social : Adamavo Mayakopé, Lomé : Région Maritime, Togo",
     "socials": [
       {
+        "platform": "YouTube",
+        "url": "https://youtube.com/@avenircertaintogo",
+        "icon": "youtube"
+      },
+      {
         "platform": "Facebook",
-        "url": "https://facebook.com/eactogo",
+        "url": "https://facebook.com/avenircertaintogo",
         "icon": "facebook"
       },
       {
         "platform": "Instagram",
-        "url": "https://instagram.com/eactogo",
+        "url": "https://instagram.com/avenircertaintogo",
         "icon": "instagram"
-      },
-      {
-        "platform": "YouTube",
-        "url": "https://youtube.com/@eactogo",
-        "icon": "youtube"
       },
       {
         "platform": "WhatsApp",
