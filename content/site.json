@@ -370,6 +370,7 @@
         "image": "images/uploads/equipe-eac-terrain.jpg",
         "imageAlt": "L'équipe EAC réunie pour une séance de planification",
         "aspectRatio": "portrait",
+        "imageFit": "contain",
         "imagePosition": "center center",
         "excerpt": "L'association consolide son organisation interne : renforcement des procédures administratives et financières, développement des capacités de gestion de projets et mise en place de mécanismes de suivi et d'évaluation des activités.",
         "link": "#"
