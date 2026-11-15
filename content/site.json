@@ -367,11 +367,10 @@
       {
         "title": "EAC renforce sa gouvernance et ses procédures internes",
         "date": "2026-09-10",
-        "image": "images/uploads/equipe-eac-terrain.jpg",
+        "image": "images/uploads/equipe-eac-terrain-portrait.jpg",
         "imageAlt": "L'équipe EAC réunie pour une séance de planification",
         "aspectRatio": "portrait",
-        "imageFit": "contain",
-        "imagePosition": "center center",
+        "imagePosition": "center top",
         "excerpt": "L'association consolide son organisation interne : renforcement des procédures administratives et financières, développement des capacités de gestion de projets et mise en place de mécanismes de suivi et d'évaluation des activités.",
         "link": "#"
       }

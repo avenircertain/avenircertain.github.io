@@ -617,20 +617,10 @@
           if (a.imagePosition) {
             img.style.objectPosition = a.imagePosition;
           }
-          if (a.imageFit) {
-            img.style.objectFit = a.imageFit;
-          }
           withFallback(img, 'EAC Actualité');
 
           const imgWrap = document.createElement('div');
           imgWrap.className = 'article-card__img-wrap';
-          if (a.imageFit === 'contain') {
-            imgWrap.classList.add('article-card__img-wrap--contain');
-            const bg = document.createElement('div');
-            bg.className = 'article-card__img-backdrop';
-            bg.style.backgroundImage = `url(${a.image})`;
-            imgWrap.appendChild(bg);
-          }
           imgWrap.appendChild(img);
           div.innerHTML = `
             <div class="article-card__body">
