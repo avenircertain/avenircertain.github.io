@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ensemble pour un Avenir Certain (EAC), association à but non lucratif œuvrant pour l’épanouissement et l’avenir des enfants vulnérables par l’éducation, le soutien alimentaire et l’inclusion.">
+  <meta name="theme-color" content="#1B6B93">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Ensemble pour un Avenir Certain (EAC) : Togo">
+  <meta property="og:description" content="Association humanitaire à but non lucratif au Togo œuvrant pour l’épanouissement et l’avenir des enfants vulnérables.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://avenircertain.org/">
+  <meta property="og:image" content="images/uploads/image_corrigee.jpg">
+  <meta property="og:locale" content="fr_FR">
+
+  <link rel="canonical" href="https://avenircertain.org/">
+
+  <title>Ensemble pour un Avenir Certain (EAC) : Togo</title>
+
+  <!-- Structured Data (Schema.org NGO) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "NGO",
+    "name": "Ensemble pour un Avenir Certain",
+    "alternateName": "EAC Togo",
+    "url": "https://avenircertain.org/",
+    "logo": "https://avenircertain.org/assets/logo.jpg",
+    "description": "Association humanitaire à but non lucratif au Togo œuvrant pour l’épanouissement des enfants vulnérables par l’éducation, le soutien alimentaire et l’inclusion.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Adamavo Mayakopé",
+      "addressLocality": "Lomé",
+      "addressRegion": "Région Maritime",
+      "addressCountry": "TG"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+228-91-07-51-22",
+      "contactType": "contact",
+      "availableLanguage": "French"
+    }
+  }
+  </script>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <!-- Fonts: Newsreader (editorial serif) + Plus Jakarta Sans (documentary sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Loader (invisible placeholder for script hook) -->
+  <div id="loader" style="display:none;" aria-hidden="true"></div>
+
+  <!-- Mobile Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Topbar -->
+  <aside class="topbar">
+    <div class="topbar__inner">
+      <span class="topbar__badge">Solidarité</span>
+      <span class="topbar__text">Rejoignez la mission d’espérance pour les enfants vulnérables au Togo</span>
+      <a href="#donation" class="topbar__link">Faire un don</a>
+    </div>
+  </aside>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__inner">
+      <a href="#accueil" class="header__logo" aria-label="Accueil Ensemble pour un Avenir Certain">
+        <div class="header__logo-frame">
+          <img id="header-logo" src="assets/Ensemble pour un avenir certain Logo.png" alt="Ensemble pour un avenir certain Logo" width="48" height="48">
+        </div>
+        <div class="header__brand">
+          <span class="header__brand-full" id="header-name">Ensemble pour un avenir certain</span>
+          <span class="header__brand-acronym">
+            <span class="badge badge--eac">EAC</span>
+            <span class="brand-tagline">Solidarité et dignité pour chaque enfant</span>
+          </span>
+        </div>
+      </a>
+
+      <nav class="header__nav" id="nav" aria-label="Navigation principale">
+        <ul class="header__nav-list" id="nav-list">
+          <!-- Filled by JS -->
+        </ul>
+      </nav>
+
+      <button class="header__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span class="header__burger-lines" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </span>
+        <span class="header__burger-label">Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="accueil">
+      <div class="hero__inner">
+        <div class="hero__image-wrap">
+          <img id="hero-img" src="images/uploads/image_corrigee.jpg" srcset="images/uploads/image_corrigee-600.jpg 600w, images/uploads/image_corrigee-800.jpg 800w, images/uploads/image_corrigee.jpg 1087w" sizes="(min-width: 900px) 45vw, 100vw" alt="Bénévole EAC remettant un kit scolaire à un enfant" class="hero__image" loading="eager" width="1087" height="1447" decoding="async">
+        </div>
+        <div class="hero__content">
+          <h1 id="hero-headline" class="hero__title"></h1>
+          <p id="hero-sub" class="hero__sub"></p>
+          <div class="hero__actions">
+            <a id="hero-cta" href="#donation" class="btn btn--primary">
+              <span id="hero-cta-text">Faire un don solidaire</span>
+            </a>
+            <a id="hero-cta2" href="#mission" class="btn btn--secondary"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Stats -->
+    <div class="stats" id="stats-ribbon">
+      <!-- Filled by JS -->
+    </div>
+
+    <!-- Mission -->
+    <section class="section mission" id="mission">
+      <div class="section__header">
+        <h2 id="mission-title" class="section__title"></h2>
+        <p id="mission-verse" class="mission__verse"></p>
+      </div>
+      <div id="mission-blocks" class="mission__blocks">
+        <!-- Filled by JS -->
+      </div>
+    </section>
+
+    <!-- Programmes & Parrainage -->
+    <section class="section programmes" id="programmes">
+      <div class="section__header">
+        <h2 id="prog-title" class="section__title"></h2>
+        <p id="prog-sub" class="section__subtitle"></p>
+      </div>
+      <div id="prog-grid" class="programmes__grid">
+        <!-- Filled by JS -->
+      </div>
+      <div id="sponsorship-block" class="sponsorship">
+        <!-- Filled by JS -->
+      </div>
+    </section>
+
+    <!-- Projets -->
+    <section class="section projets" id="projets">
+      <div class="section__header">
+        <h2 id="proj-title" class="section__title"></h2>
+        <p id="proj-sub" class="section__subtitle"></p>
+      </div>
+      <div id="proj-grid" class="projets__grid">
+        <!-- Filled by JS -->
+      </div>
+    </section>
+
+    <!-- Donation -->
+    <section class="section donation" id="donation">
+      <div class="donation__inner">
+        <div class="donation__hero">
+          <div class="donation__hero-media">
+            <img id="don-img" src="images/uploads/benevole-petit-garcon.jpg" alt="Bénévole EAC avec un petit garçon souriant" class="donation__hero-img" loading="lazy" width="600" height="400">
+          </div>
+          <div class="donation__hero-content">
+            <h2 id="don-title" class="donation__title"></h2>
+            <p id="don-sub" class="donation__subtitle"></p>
+            <blockquote id="don-verse" class="donation__verse"></blockquote>
+          </div>
+        </div>
+
+        <div class="donation__tiers-header">
+          <h3>Choisissez l’impact de votre don</h3>
+        </div>
+        <div id="don-tiers" class="donation__tiers">
+          <!-- Filled by JS -->
+        </div>
+
+        <div class="donation__box">
+          <h3 class="donation__box-title">Canaux officiels de réception des donations</h3>
+          <p class="donation__box-desc">Chaque don est tracé avec rigueur et transparent dans nos rapports annuels.</p>
+          <div id="don-methods" class="donation__methods">
+            <!-- Filled by JS -->
+          </div>
+          <div class="donation__cta-wrap">
+            <a href="#contact" class="btn btn--donate btn--large">Contacter l’association</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials" id="testimonials">
+      <div class="section__header section__header--light">
+        <h2 class="section__title section__title--light">Témoignages</h2>
+      </div>
+      <div class="testimonials__track" id="testimonial-track">
+        <!-- Filled by JS -->
+      </div>
+      <div class="testimonials__controls">
+        <button class="testimonials__arrow testimonials__arrow--prev" id="testi-prev" aria-label="Témoignage précédent">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+        </button>
+        <div class="testimonials__dots" id="testimonial-dots"></div>
+        <button class="testimonials__pause" id="testi-pause" aria-label="Mettre en pause le carrousel">II</button>
+        <button class="testimonials__arrow testimonials__arrow--next" id="testi-next" aria-label="Témoignage suivant">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <!-- Articles -->
+    <section class="section articles" id="articles">
+      <div class="section__header">
+        <h2 id="art-title" class="section__title"></h2>
+        <p id="art-sub" class="section__subtitle"></p>
+      </div>
+      <div id="art-list" class="articles__list">
+        <!-- Filled by JS -->
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section class="section blog" id="blog">
+      <div class="section__header">
+        <h2 id="blog-title" class="section__title"></h2>
+        <p id="blog-sub" class="section__subtitle"></p>
+      </div>
+      <div id="blog-grid" class="blog__grid">
+        <!-- Filled by JS -->
+      </div>
+    </section>
+
+    <!-- Vidéos -->
+    <section class="section medias" id="medias">
+      <div class="section__header">
+        <h2 id="vid-title" class="section__title"></h2>
+        <p id="vid-sub" class="section__subtitle"></p>
+      </div>
+      <div id="vid-scroll" class="medias__scroll">
+        <!-- Filled by JS -->
+      </div>
+    </section>
+
+    <!-- Téléchargements -->
+    <section class="section downloads" id="downloads">
+      <div class="section__header">
+        <h2 id="dl-title" class="section__title"></h2>
+      </div>
+      <ul id="dl-list" class="downloads__list">
+        <!-- Filled by JS -->
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <div class="contact__info">
+          <h2 id="ct-title" class="contact__title"></h2>
+          <p id="ct-sub" class="contact__subtitle"></p>
+          <address id="ct-details" class="contact__details">
+            <!-- Filled by JS -->
+          </address>
+          <div id="ct-socials" class="contact__socials">
+            <!-- Filled by JS -->
+          </div>
+        </div>
+        <form class="contact__form" id="contact-form" novalidate>
+          <div class="form__group">
+            <label for="cf-name">Nom complet</label>
+            <input type="text" id="cf-name" name="name" placeholder="Ex : Jean Koffi" required>
+          </div>
+          <div class="form__group">
+            <label for="cf-email">Adresse e-mail</label>
+            <input type="email" id="cf-email" name="email" placeholder="votre@email.com" required>
+          </div>
+          <div class="form__group">
+            <label for="cf-subject">Objet de votre message</label>
+            <select id="cf-subject" name="subject" class="form__select">
+              <option value="donation">Faire un don / Soutenir un projet</option>
+              <option value="parrainage">Parrainer un enfant</option>
+              <option value="partenariat">Partenariat (ONG, Association, Entreprise, Institution)</option>
+              <option value="benevolat">Devenir bénévole / Mission terrain</option>
+              <option value="autre">Autre demande</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label for="cf-message">Votre message</label>
+            <textarea id="cf-message" name="message" rows="5" placeholder="Partagez vos questions, intentions ou encouragements…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Envoyer via WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer__inner">
+      <div class="footer__brand-block">
+        <div class="footer__logo-wrap">
+          <img id="footer-logo" class="footer__logo" src="assets/Ensemble pour un avenir certain Logo.png" alt="Ensemble pour un avenir certain Logo" width="90" height="90">
+        </div>
+        <h3 class="footer__title">Ensemble pour un Avenir Certain (EAC)</h3>
+        <p class="footer__motto">Association à but non lucratif œuvrant pour l’épanouissement des enfants vulnérables</p>
+      </div>
+
+      <p id="footer-verse" class="footer__verse"></p>
+
+      <div class="footer__links" id="footer-links">
+        <!-- Filled by JS -->
+      </div>
+      <p id="footer-copy" class="footer__copy"></p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Retour en haut">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>

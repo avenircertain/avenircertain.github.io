@@ -1,0 +1,486 @@
+{
+  "site": {
+    "name": "Ensemble pour un avenir certain",
+    "shortName": "EAC",
+    "tagline": "Association à but non lucratif œuvrant pour l'épanouissement et l'avenir des enfants vulnérables",
+    "logo": "assets/Ensemble pour un avenir certain Logo.png",
+    "nav": [
+      {
+        "label": "Accueil",
+        "href": "#accueil"
+      },
+      {
+        "label": "Mission",
+        "href": "#mission"
+      },
+      {
+        "label": "Programmes",
+        "href": "#programmes"
+      },
+      {
+        "label": "Projets",
+        "href": "#projets"
+      },
+      {
+        "label": "Actualités",
+        "href": "#articles"
+      },
+      {
+        "label": "Blog",
+        "href": "#blog"
+      },
+      {
+        "label": "Donation",
+        "href": "#donation",
+        "isCta": true
+      },
+      {
+        "label": "Contact",
+        "href": "#contact"
+      }
+    ]
+  },
+  "hero": {
+    "headline": "Chaque enfant porte en lui la promesse d'un avenir certain",
+    "subheadline": "Ensemble pour un Avenir Certain (EAC) contribue, par des actions concrètes et solidaires, à l'amélioration des conditions de vie et d'épanouissement des enfants en situation de vulnérabilité au Togo, par l'éducation, le soutien alimentaire et l'inclusion.",
+    "cta": {
+      "text": "Faire un don solidaire",
+      "href": "#donation"
+    },
+    "ctaSecondary": {
+      "text": "Découvrir notre mission",
+      "href": "#mission"
+    },
+    "image": "images/uploads/image_corrigee.jpg",
+    "imageAlt": "Ensemble pour un Avenir Certain (EAC) : Éducation et solidarité au Togo"
+  },
+  "stats": [
+    {
+      "value": 100,
+      "suffix": "+",
+      "label": "Kits scolaires distribués"
+    },
+    {
+      "value": 10,
+      "suffix": "",
+      "label": "Membres actifs et bénévoles"
+    },
+    {
+      "value": 1,
+      "suffix": " an",
+      "label": "D'engagement solidaire continu"
+    },
+    {
+      "value": 50,
+      "suffix": "+",
+      "label": "Enfants en situation de handicap soutenus (Noël 2026)"
+    }
+  ],
+  "mission": {
+    "title": "Notre Mission & Nos Valeurs",
+    "verse": "« Les conditions de vie d'un enfant ne devraient pas déterminer définitivement ses possibilités d'avenir. » EAC Togo",
+    "blocks": [
+      {
+        "title": "Soutien à la scolarisation & à la Dignité",
+        "text": "Nous croyons que l'éducation est le levier le plus puissant pour briser le cycle de la pauvreté. À Lomé et ses environs, nous distribuons des kits scolaires complets, du matériel pédagogique et apportons un soutien ponctuel aux enfants particulièrement vulnérables issus de familles modestes. Notre première opération a permis de distribuer 100 kits scolaires à 100 enfants en août 2026.",
+        "image": "images/uploads/medium-shot-kid-writing-board.jpg",
+        "imageAlt": "Élève africain participant activement au tableau noir en classe"
+      },
+      {
+        "title": "Soutien alimentaire & Bien-être intégral",
+        "text": "Grandir en pleine santé est un droit fondamental. L'association souhaite contribuer à l'amélioration des conditions alimentaires des enfants et familles particulièrement vulnérables, notamment à travers des distributions ciblées de produits de première nécessité. Le projet « Noël Solidaire 2026 » prévoit la distribution de kits alimentaires à 50 enfants en situation de handicap.",
+        "image": "images/uploads/distribution-kits-scolaires.jpg",
+        "imageAlt": "Bénévole EAC préparant la distribution de kits aux familles"
+      },
+      {
+        "title": "Inclusion & Solidarité communautaire",
+        "text": "Notre action est portée par une belle alliance de solidarité : des membres bénévoles investis sur le terrain, main dans la main avec les communautés locales, les entreprises, les fondations et les organisations nationales et internationales partageant nos valeurs de dignité, d'équité et d'inclusion. Cette coopération favorise l'échange de compétences et tisse des liens solidaires durables.",
+        "image": "images/uploads/equipe-eac-terrain.jpg",
+        "imageAlt": "Équipe EAC réunie sur le terrain portant les t-shirts de l'association",
+        "imagePosition": "center center",
+        "aspectRatio": "landscape"
+      }
+    ]
+  },
+  "programmes": {
+    "title": "Nos Programmes d'Action",
+    "subtitle": "Une approche solidaire pour l'épanouissement de l'enfant et de sa communauté",
+    "items": [
+      {
+        "title": "Distribution de kits scolaires",
+        "text": "Réduire les obstacles matériels auxquels sont confrontés les enfants issus de familles modestes en distribuant des kits scolaires complets, du matériel pédagogique et des fournitures essentielles.",
+        "icon": "🎒"
+      },
+      {
+        "title": "Soutien alimentaire solidaire",
+        "text": "Contribuer à l'amélioration des conditions alimentaires des enfants et familles vulnérables, à travers des distributions ciblées de produits de première nécessité.",
+        "icon": "🍲"
+      },
+      {
+        "title": "Inclusion des enfants en situation de handicap",
+        "text": "Développer des actions en faveur des enfants en situation de handicap dans les domaines du soutien social, de l'inclusion, de l'éducation et de l'accès aux besoins essentiels.",
+        "icon": "♿"
+      },
+      {
+        "title": "Protection & Bien-être de l'enfant",
+        "text": "Promouvoir un environnement dans lequel les enfants sont protégés contre les différentes formes de violence, de discrimination, d'exploitation et de négligence.",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Sensibilisation communautaire",
+        "text": "Mener et soutenir des actions de sensibilisation destinées aux communautés, aux familles et aux différents acteurs concernés par la protection et le bien-être des enfants.",
+        "icon": "📢"
+      },
+      {
+        "title": "Partenariats & Autonomisation",
+        "text": "Développer des partenariats fondés sur la confiance, la transparence et la complémentarité avec des ONG, fondations, entreprises et institutions pour un impact durable.",
+        "icon": "🤝"
+      }
+    ],
+    "sponsorship": {
+      "badge": "Programme Clé de Solidarité",
+      "title": "Le Programme de Parrainage EAC",
+      "subtitle": "Créez un lien direct et bienveillant avec un enfant. Choisissez la formule qui correspond à votre engagement :",
+      "types": [
+        {
+          "id": "parrainage-total",
+          "title": "Parrainage Total",
+          "tag": "Accompagnement Intégral",
+          "highlight": true,
+          "icon": "🌟",
+          "description": "Prise en charge complète couvrant la scolarité intégrale (inscription, kits scolaires, manuels, uniforme) et l'assurance de repas réguliers et équilibrés pour l'enfant parrainé tout au long de l'année.",
+          "details": "Scolarité complète + Repas réguliers + Suivi scolaire personnalisé",
+          "linkText": "Parrainer totalement un enfant →",
+          "href": "#contact"
+        },
+        {
+          "id": "parrainage-partiel",
+          "title": "Parrainage Partiel",
+          "tag": "Soutien Scolarité",
+          "highlight": false,
+          "icon": "📚",
+          "description": "Prise en charge couvrant la scolarité uniquement : frais d'inscription scolaire, sac et fournitures complètes, afin de lui garantir l'accès continu et serein à l'école.",
+          "details": "Scolarité uniquement + Fournitures & Uniforme",
+          "linkText": "Parrainer la scolarité →",
+          "href": "#contact"
+        },
+        {
+          "id": "parrainage-ponctuel",
+          "title": "Parrainage Ponctuel",
+          "tag": "Urgence & Coup de Pouce",
+          "highlight": false,
+          "icon": "🤝",
+          "description": "Prise en charge couvrant des besoins essentiels pour une situation ou un problème particulier (soins de santé d'urgence, matériel pédagogique spécifique, secours exceptionnel) en une seule intervention.",
+          "details": "Aide ciblée versée en une seule fois",
+          "linkText": "Apporter un soutien ponctuel →",
+          "href": "#contact"
+        }
+      ]
+    }
+  },
+  "projets": {
+    "title": "Nos Projets 2026-2027",
+    "subtitle": "Des réalisations concrètes nécessitant la mobilisation de tous nos partenaires",
+    "items": [
+      {
+        "title": "Opération « 100 Kits Scolaires » Réalisée en août 2026",
+        "category": "Éducation",
+        "status": "Réalisé",
+        "progress": 100,
+        "target": "100 kits distribués",
+        "raised": "100 enfants bénéficiaires",
+        "image": "images/uploads/kits-scolaires-prepares.jpg",
+        "imageAlt": "Kits scolaires préparés et prêts pour la distribution aux enfants",
+        "description": "Distribution de 100 kits scolaires à des enfants issus de familles modestes. Première opération de solidarité de l'association, rendue possible grâce aux cotisations des membres et à l'appui d'un donateur.",
+        "imagePosition": "center top"
+      },
+      {
+        "title": "Noël Solidaire 2026 : Enfants en situation de handicap",
+        "category": "Inclusion & Handicap",
+        "status": "En préparation",
+        "progress": 40,
+        "target": "50 enfants en situation de handicap ciblés",
+        "raised": "Collecte en cours",
+        "image": "images/uploads/remise-kit-petites-filles.jpg",
+        "imageAlt": "Bénévole EAC remettant un kit à deux petites filles lors d'un événement solidaire",
+        "description": "Distribution de kits alimentaires à 50 enfants en situation de handicap issus de familles vulnérables. Une nouvelle étape dans l'engagement inclusif de l'association.",
+        "imagePosition": "center top"
+      },
+      {
+        "title": "Noël Solidaire 2026 : Enfants orphelins",
+        "category": "Solidarité & Protection",
+        "status": "En préparation",
+        "progress": 35,
+        "target": "50 enfants orphelins ciblés",
+        "raised": "Collecte en cours",
+        "image": "images/uploads/remise-kit-enfant-fille.jpg",
+        "imagePosition": "center top",
+        "imageAlt": "Bénévole EAC remettant un kit à une jeune fille orpheline",
+        "description": "Distribution de kits alimentaires, vêtements et cadeaux festifs pour partager la joie de Noël avec 50 enfants orphelins et leur apporter tendresse, écoute et dignité."
+      },
+      {
+        "title": "Extension des actions aux régions du Togo",
+        "category": "Développement territorial",
+        "status": "Planification",
+        "progress": 15,
+        "target": "Ensemble du territoire togolais",
+        "raised": "Recherche de partenaires",
+        "image": "images/uploads/enfants-assemblee-eac.jpg",
+        "imageAlt": "Enfants réunis lors d'un événement EAC à Lomé",
+        "description": "Extension progressive des activités aux différentes régions du Togo afin de répondre aux besoins d'enfants vulnérables au-delà de la région Maritime, en fonction des ressources et des partenaires locaux disponibles."
+      }
+    ]
+  },
+  "donation": {
+    "title": "Soutenez Notre Action : Faites un Don",
+    "subtitle": "Chaque don, petit ou grand, se traduit directement par un changement concret dans la vie d'un enfant au Togo",
+    "verse": "« La solidarité, l'éducation, l'inclusion et l'accompagnement des enfants vulnérables constituent des leviers essentiels pour construire une société plus équitable. » EAC",
+    "image": "images/uploads/benevole-petit-garcon.jpg",
+    "imageAlt": "Bénévole EAC avec un petit garçon souriant lors d'une distribution de kits",
+    "tiers": [
+      {
+        "amount": "10 €",
+        "fcfa": "6 500 FCFA",
+        "impact": "Un kit scolaire complet (sac, cahiers, stylos, ardoise) pour un élève du primaire issu d'une famille modeste."
+      },
+      {
+        "amount": "25 €",
+        "fcfa": "16 500 FCFA",
+        "impact": "Un kit alimentaire de première nécessité pour un enfant en situation de handicap et sa famille."
+      },
+      {
+        "amount": "50 €",
+        "fcfa": "33 000 FCFA",
+        "impact": "Le soutien scolaire complet d'un enfant vulnérable : fournitures, matériel pédagogique et accompagnement."
+      },
+      {
+        "amount": "100 €",
+        "fcfa": "65 000 FCFA",
+        "impact": "Contribution majeure au programme d'inclusion des enfants en situation de handicap ou au développement d'un partenariat solidaire."
+      }
+    ],
+    "methods": [
+      {
+        "id": "mixxyas",
+        "name": "Mixx Yas & Flooz",
+        "tag": "Local Togo & UEMOA",
+        "highlight": true,
+        "icon": "📱",
+        "details": "Versement direct sans intermédiaire pour les donateurs au Togo ou dans l'espace UEMOA via les services de transfert mobile officiels de l'association.",
+        "features": [
+          "Réservé aux donateurs au Togo et dans l'espace UEMOA",
+          "Transfert instantané, sans frais bancaires internationaux",
+          "Confirmation de réception assurée par l'association"
+        ],
+        "phone": "+228 91 07 51 22",
+        "linkText": "Cliquez pour voir les numéros officiels",
+        "contactPerson": "Mme Sanvee",
+        "numbers": [
+          {
+            "operator": "Mixx",
+            "phone": "+228 91 07 51 22"
+          },
+          {
+            "operator": "Flooz",
+            "phone": "+228 97 23 57 65"
+          }
+        ]
+      },
+      {
+        "id": "bank",
+        "name": "Virement Bancaire Officiel",
+        "tag": "🏛️ Compte Bancaire",
+        "highlight": false,
+        "icon": "🏦",
+        "details": "Idéal pour les particuliers, fondations, ONG ou entreprises souhaitant effectuer un virement bancaire formel et traçable depuis la zone UEMOA ou l'international.",
+        "features": [
+          "Coordonnées bancaires officielles (RIB / IBAN / BIC)",
+          "Attestation de don officiel délivrée pour votre comptabilité",
+          "Traçabilité intégrale dans les rapports de gestion d'EAC"
+        ],
+        "link": "#contact",
+        "linkText": "Demander le RIB / Coordonnées officielles →"
+      },
+      {
+        "id": "partnership",
+        "name": "Partenariat & Dons en Nature",
+        "tag": "🤝 Matériel & Mécénat",
+        "highlight": false,
+        "icon": "📦",
+        "details": "Soutenez nos actions par des dons de kits scolaires, sacs, denrées alimentaires, matériel médical ou par une convention formelle de mécénat solidaire.",
+        "features": [
+          "Dons matériels (fournitures scolaires, denrées de première nécessité)",
+          "Convention de partenariat sur-mesure pour votre organisation",
+          "Visibilité et valorisation éthique de votre engagement"
+        ],
+        "link": "#contact",
+        "linkText": "Proposer un don matériel ou partenariat →"
+      }
+    ]
+  },
+  "testimonials": [
+    {
+      "quote": "La distribution des kits scolaires par EAC a été un immense soulagement pour nos enfants et notre famille. Mes deux fils ont pu commencer l'année scolaire avec tout le nécessaire. Nous remercions profondément toute l'équipe de bénévoles.",
+      "author": "Une mère de famille",
+      "role": "Bénéficiaire, Canton de Baguida, Lomé"
+    },
+    {
+      "quote": "En tant que membre fondateur d'EAC, voir les sourires des enfants lors de la distribution des 100 kits scolaires m'a conforté dans notre mission. Chaque geste compte pour construire un avenir plus certain pour ces enfants.",
+      "author": "Membre du Comité exécutif",
+      "role": "Bénévole EAC Togo"
+    },
+    {
+      "quote": "L'approche d'EAC est remarquable : transparence dans la gestion, respect de la dignité des bénéficiaires et un vrai souci d'inclusion des enfants en situation de handicap. C'est une association qui mérite d'être soutenue.",
+      "author": "Un partenaire",
+      "role": "Donateur et soutien de l'opération kits scolaires"
+    },
+    {
+      "quote": "Le projet Noël Solidaire pour les enfants en situation de handicap est une initiative qui touche au cœur. Notre communauté espère que cette action sera la première d'une longue série.",
+      "author": "Un éducateur social",
+      "role": "Acteur communautaire, Lomé"
+    }
+  ],
+  "articles": {
+    "title": "Actualités du Terrain",
+    "subtitle": "Les derniers événements et avancées vécus avec nos communautés",
+    "items": [
+      {
+        "title": "Opération « 100 Kits Scolaires » : une première réussie pour EAC",
+        "date": "2026-08-20",
+        "image": "images/uploads/enfants-reunion-eac.jpg",
+        "imageAlt": "Enfants rassemblés lors de l'événement de distribution de kits scolaires EAC",
+        "excerpt": "En août 2026, EAC a organisé sa toute première opération de solidarité : la distribution de 100 kits scolaires à 100 enfants issus de familles modestes à Lomé. Rendue possible grâce aux cotisations des 9 membres et à l'appui d'un donateur, cette action a marqué le début concret de notre engagement.",
+        "link": "#"
+      },
+      {
+        "title": "Préparation du projet « Noël Solidaire 2026 » pour les enfants en situation de handicap",
+        "date": "2026-10-15",
+        "image": "images/uploads/remise-kit-enfant-fille.jpg",
+        "imageAlt": "Bénévole EAC avec une jeune fille bénéficiaire lors d'un événement de l'association",
+        "excerpt": "EAC prépare activement le projet « Noël Solidaire 2026 » destiné à distribuer des kits alimentaires à 50 enfants en situation de handicap issus de familles vulnérables. L'identification des bénéficiaires et la mobilisation des ressources sont en cours.",
+        "link": "#"
+      },
+      {
+        "title": "EAC renforce sa gouvernance et ses procédures internes",
+        "date": "2026-09-10",
+        "image": "images/uploads/equipe-eac-terrain.jpg",
+        "imageAlt": "L'équipe EAC réunie pour une séance de planification",
+        "excerpt": "L'association consolide son organisation interne : renforcement des procédures administratives et financières, développement des capacités de gestion de projets et mise en place de mécanismes de suivi et d'évaluation des activités.",
+        "link": "#"
+      }
+    ]
+  },
+  "blog": {
+    "title": "Le Blog d'EAC — Solidarité, Dignité & Action",
+    "subtitle": "Réflexions et regards d'espérance sur le développement solidaire au Togo",
+    "items": [
+      {
+        "title": "Pourquoi la solidarité transforme durablement l'éducation",
+        "author": "Équipe EAC Togo",
+        "date": "2026-10-02",
+        "category": "Réflexion",
+        "image": "images/uploads/benevole-enfant-kit.jpg",
+        "imageAlt": "Bénévole EAC remettant un sac à un enfant bénéficiaire",
+        "excerpt": "Éduquer un enfant ne se limite pas à lui transmettre des connaissances académiques : c'est lui offrir la dignité et la possibilité de construire son propre avenir. Par la distribution de kits scolaires et le soutien aux familles, nous contribuons à lever les obstacles matériels qui freinent l'accès à l'éducation."
+      },
+      {
+        "title": "De l'action ponctuelle aux programmes structurés : notre vision",
+        "author": "Comité exécutif EAC",
+        "date": "2026-08-25",
+        "category": "Vision & Développement",
+        "image": "images/uploads/remise-kit-enfant-adulte.jpg",
+        "imageAlt": "Membre EAC remettant un kit à un enfant accompagné d'un adulte",
+        "excerpt": "Construire avec les communautés plutôt qu'à leur place : retour sur notre première opération où chaque étape — de la mobilisation des ressources à la documentation de l'intervention — a renforcé notre capacité à servir les enfants vulnérables de manière pérenne."
+      },
+      {
+        "title": "L'inclusion des enfants en situation de handicap : un engagement fondamental",
+        "author": "EAC Togo",
+        "date": "2026-09-15",
+        "category": "Inclusion & Handicap",
+        "image": "images/uploads/enfants-assemblee-eac.jpg",
+        "imageAlt": "Enfants rassemblés lors d'un événement communautaire EAC",
+        "excerpt": "Les enfants en situation de handicap doivent pouvoir participer pleinement à la vie sociale et bénéficier d'un accompagnement adapté. Avec le projet Noël Solidaire, EAC franchit une étape importante dans son engagement inclusif en collaboration avec les structures spécialisées."
+      }
+    ]
+  },
+  "videos": {
+    "title": "Médias & Vidéos du Terrain",
+    "subtitle": "Découvrez le sourire de nos enfants et la réalité vivante de nos actions sur le terrain à Lomé",
+    "items": [
+      {
+        "title": "Distribution des kits scolaires : Sur le terrain à Lomé",
+        "embedUrl": "assets/videos/distribution-kits-scolaires.mp4",
+        "thumbnail": "images/uploads/distribution-kits-scolaires.jpg"
+      },
+      {
+        "title": "Moment d'échange et rassemblement avec les familles",
+        "embedUrl": "assets/videos/enfants-reunion-eac.mp4",
+        "thumbnail": "images/uploads/enfants-reunion-eac.jpg"
+      },
+      {
+        "title": "Sourires et joie des enfants bénéficiaires",
+        "embedUrl": "assets/videos/joie-enfants-eac.mp4",
+        "thumbnail": "images/uploads/remise-kit-petites-filles.jpg"
+      }
+    ]
+  },
+  "downloads": {
+    "title": "Documents & Rapports Officiels",
+    "items": [
+      {
+        "title": "Présentation institutionnelle EAC",
+        "description": "Document officiel présentant la vision, la mission, les valeurs et les domaines d'intervention de l'association.",
+        "file": "assets/documents/presentation-eac.pdf",
+        "type": "PDF",
+        "size": "105 Ko"
+      },
+      {
+        "title": "Rapport de l'opération « 100 Kits Scolaires »",
+        "description": "Rapport de la première distribution réalisée en août 2026. Disponible sur simple demande auprès de notre secrétariat.",
+        "file": "#contact",
+        "type": "PDF",
+        "size": "Sur demande"
+      },
+      {
+        "title": "Statuts officiels et récépissé d'enregistrement",
+        "description": "Enregistrement officiel n°0034 du 14 Janvier 2026 auprès du Ministère de l'Administration Territoriale. Disponible sur simple demande.",
+        "file": "#contact",
+        "type": "PDF",
+        "size": "Sur demande"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contactez l'Association",
+    "subtitle": "Pour toute question, demande de partenariat ou don, notre équipe est à votre écoute.",
+    "email": "info@avenircertain.org",
+    "phone": "+228 91 07 51 22",
+    "address": "Siège social : Adamavo Mayakopé, Lomé : Région Maritime, Togo",
+    "socials": [
+      {
+        "platform": "Facebook",
+        "url": "https://facebook.com/eactogo",
+        "icon": "facebook"
+      },
+      {
+        "platform": "Instagram",
+        "url": "https://instagram.com/eactogo",
+        "icon": "instagram"
+      },
+      {
+        "platform": "YouTube",
+        "url": "https://youtube.com/@eactogo",
+        "icon": "youtube"
+      },
+      {
+        "platform": "WhatsApp",
+        "url": "https://wa.me/22891075122",
+        "icon": "whatsapp"
+      }
+    ]
+  },
+  "footer": {
+    "copyright": "© 2026 Ensemble pour un Avenir Certain (EAC) : Tous droits réservés.",
+    "verse": "« La solidarité, l'éducation, l'inclusion et l'accompagnement des enfants vulnérables constituent des leviers essentiels pour construire une société plus équitable. »"
+  }
+}
