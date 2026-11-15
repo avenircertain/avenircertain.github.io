@@ -1511,17 +1511,15 @@ button {
   transition: border-color var(--transition-fast);
 }
 .article-card:hover { border-color: var(--color-rule-medium); }
-/* Aspect ratio for article images — preserves full documentary photos without cropping */
+/* Aspect ratio for article images — uniform 3/4 portrait framing across all cards */
 .article-card__img-wrap {
   aspect-ratio: 3 / 4;
   overflow: hidden;
   background-color: var(--color-paper-subtle);
 }
-.article-card__img-wrap--portrait {
-  aspect-ratio: 3 / 4;
-}
+.article-card__img-wrap--portrait,
 .article-card__img-wrap--landscape {
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
 }
 .article-card__img {
   width: 100%;

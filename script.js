@@ -619,23 +619,9 @@
           }
           withFallback(img, 'EAC Actualité');
 
-          const isLandscape = a.aspectRatio === 'landscape' || (a.image && a.image.includes('equipe'));
-          const orientClass = isLandscape ? 'article-card__img-wrap--landscape' : 'article-card__img-wrap--portrait';
           const imgWrap = document.createElement('div');
-          imgWrap.className = `article-card__img-wrap ${orientClass}`;
+          imgWrap.className = 'article-card__img-wrap';
           imgWrap.appendChild(img);
-
-          img.addEventListener('load', function() {
-            if (this.naturalWidth && this.naturalHeight) {
-              if (this.naturalWidth > this.naturalHeight * 1.05) {
-                imgWrap.classList.remove('article-card__img-wrap--portrait');
-                imgWrap.classList.add('article-card__img-wrap--landscape');
-              } else {
-                imgWrap.classList.remove('article-card__img-wrap--landscape');
-                imgWrap.classList.add('article-card__img-wrap--portrait');
-              }
-            }
-          });
           div.innerHTML = `
             <div class="article-card__body">
               <span class="article-card__date">${formatDate(a.date)}</span>
