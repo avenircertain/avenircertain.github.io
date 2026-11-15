@@ -863,7 +863,22 @@
       document.addEventListener('keydown', e => {
         if (e.key === 'Escape' && nav.classList.contains('is-open')) closeMenu();
       });
-      $$('.nav-btn', nav).forEach(a => a.addEventListener('click', closeMenu));
+      $$('.nav-btn', nav).forEach(a => {
+        a.addEventListener('click', e => {
+          const targetId = a.getAttribute('href');
+          closeMenu();
+          if (targetId && targetId.startsWith('#') && targetId.length > 1) {
+            const targetEl = document.querySelector(targetId);
+            if (targetEl) {
+              e.preventDefault();
+              targetEl.scrollIntoView({ behavior: 'smooth' });
+              if (history.pushState) {
+                history.pushState(null, '', targetId);
+              }
+            }
+          }
+        });
+      });
     }
 
     /* --- Header scroll & Back-to-top --- */
