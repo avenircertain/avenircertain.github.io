@@ -614,6 +614,9 @@
           img.src = a.image;
           img.alt = a.imageAlt || a.title;
           img.loading = 'lazy';
+          if (a.imagePosition) {
+            img.style.objectPosition = a.imagePosition;
+          }
           withFallback(img, 'EAC Actualité');
 
           const imgWrap = document.createElement('div');

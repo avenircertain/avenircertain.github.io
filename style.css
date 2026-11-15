@@ -1511,9 +1511,9 @@ button {
   transition: border-color var(--transition-fast);
 }
 .article-card:hover { border-color: var(--color-rule-medium); }
-/* Aspect ratio for article images — no cropping */
+/* Aspect ratio for article images — 4/3 preserves documentary framing */
 .article-card__img-wrap {
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   background-color: var(--color-paper-subtle);
 }

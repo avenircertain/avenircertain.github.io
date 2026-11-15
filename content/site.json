@@ -349,6 +349,7 @@
         "date": "2026-08-20",
         "image": "images/uploads/enfants-reunion-eac.jpg",
         "imageAlt": "Enfants rassemblés lors de l'événement de distribution de kits scolaires EAC",
+        "imagePosition": "center 60%",
         "excerpt": "En août 2026, EAC a organisé sa toute première opération de solidarité : la distribution de 100 kits scolaires à 100 enfants issus de familles modestes à Lomé. Rendue possible grâce aux cotisations des 9 membres et à l'appui d'un donateur, cette action a marqué le début concret de notre engagement.",
         "link": "#"
       },
@@ -357,6 +358,7 @@
         "date": "2026-10-15",
         "image": "images/uploads/remise-kit-enfant-fille.jpg",
         "imageAlt": "Bénévole EAC avec une jeune fille bénéficiaire lors d'un événement de l'association",
+        "imagePosition": "center 25%",
         "excerpt": "EAC prépare activement le projet « Noël Solidaire 2026 » destiné à distribuer des kits alimentaires à 50 enfants en situation de handicap issus de familles vulnérables. L'identification des bénéficiaires et la mobilisation des ressources sont en cours.",
         "link": "#"
       },
@@ -365,6 +367,7 @@
         "date": "2026-09-10",
         "image": "images/uploads/equipe-eac-terrain.jpg",
         "imageAlt": "L'équipe EAC réunie pour une séance de planification",
+        "imagePosition": "center center",
         "excerpt": "L'association consolide son organisation interne : renforcement des procédures administratives et financières, développement des capacités de gestion de projets et mise en place de mécanismes de suivi et d'évaluation des activités.",
         "link": "#"
       }
