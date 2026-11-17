@@ -710,6 +710,7 @@
     /* --- Downloads --- */
     if (downloads && downloads.items && downloads.items.length) {
       if ($('#dl-title')) $('#dl-title').textContent = downloads.title;
+      if ($('#dl-sub')) $('#dl-sub').textContent = downloads.subtitle || '';
       const dlList = $('#dl-list');
       if (dlList) {
         dlList.innerHTML = '';
@@ -718,7 +719,7 @@
           const li = document.createElement('li');
           li.innerHTML = `
             <a href="${d.file}" class="download-item reveal"${isDownload ? ' download' : ''}>
-              <div class="download-item__icon">${d.type}</div>
+              <div class="download-item__icon">${d.type || d.format || 'PDF'}</div>
               <div class="download-item__info">
                 <h4>${d.title}</h4>
                 <p>${d.description}</p>
